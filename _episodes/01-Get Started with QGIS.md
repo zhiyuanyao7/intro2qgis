@@ -43,11 +43,11 @@ To start, we need to download the data first. There are two shapefiles: Grocery 
 
 2.In Data Source Manager|Vector window, click the button and navigate to the folder where the data is. Once select GroceryStores_sp.shp, click Add. 
 
-![Add Grocery store layer](../fig/Figure10-add-GroceryStores_sp-layer.png)
+![Add Grocery store layer](../fig/Figure10-Add-GroceryStores_sp-layer.png)
 
 3.Follow the same procedure and Add Neighborhood_sp.shp.
 
-![Add Neighborhood layer](../fig/Figure11-Add-Neighiborhood_sp-layer.png)
+![Add Neighborhood layer](../fig/Figure11-Add-Neighborhood_sp-layer.png)
 
 4. After adding GroceryStores_sp.shp and Neighborhood_sp.shp, close the Data Source Manager|Vector window.
 
@@ -57,7 +57,7 @@ QGIS can convert X Y Coordinates into locations on a map. Open Apartments.csv an
 
 1. In the menu bar, click Layer, then Add layer, and choose Add Delimited Text Layer.
 
-![Add delimited file](../fig/Figure 12. Add delimited text layer.png)
+![Add delimited file](../fig/Figure12-Add-delimited-text-layer.png)
 
 2. b.	In the Data Source Manager|Vector window, 1) navigate to the Data folder and 2) choose Apartment.csv. 3) Make sure Geometry CRS is EPSG: 4326 – WGS84. 4) Click Add. Close the Data Source Manager|Vector window. Apartments should show in the Canvas. 
 
@@ -75,7 +75,7 @@ QGIS provides access to a variety of online base maps. You can add these base ma
 
 1. Find XYZ Tiles in Brower. Right click XYZ Tiles. 
 
-![Add a new connection of XYZ Tile](../fig/Figure15-Add-a-new-connection-for-XYZ-Tile.png)
+![Add a new connection of XYZ Tile](../fig/Figure15-Add-a-new-connection-for-XYZ-Tiles.png)
 
 2. In the XYZ Connection window, name the new XYZ Tile as Google Road/Streets, and copy  https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z} into URL. Click OK. 
 
