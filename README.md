@@ -21,4 +21,4 @@ All participants should agree to abide by the [Data Carpentry Code of Conduct](h
 
 ## Authors
 
-This workshop is contributed by Data Science Center from University of California, Los Angeles. 
+This workshop was contributed by Data Science Center from University of California, Los Angeles. 
