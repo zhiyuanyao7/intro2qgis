@@ -27,7 +27,7 @@ New print layout
 
 2. Name the print layout as House Hunting Plan
  
-![Figure 66. Name the new print layout](../fig/Figure-66-Name-the-new-print-layout.png)
+![Figure 66. Name the new print layout](../fig/Figure66-Name-the-new-print-layout.png)
 
 Name the new print layout
 {: .text-center}
@@ -83,7 +83,7 @@ Add frame the map
 Customize the legend (a)
 {: .text-center}
  
-![Figure 74. Customize the legend (b)}(../fig/Figure74-Customize-the-legeng-b.png)
+![Figure 74. Customize the legend (b)](../fig/Figure74-Customize-the-legeng-b.png)
 
 Customize the legend (b)
 {: .text-center}
@@ -105,7 +105,7 @@ We did a simple spatial analysis and made the first map! Good job! Next step is 
 
 1. In the print layout window, click Layout in the Menu bar. Save Project. This will save both the edited map and the print layout. 
  
-![Figure 76. Save the project from print layout view](../fig/Figure76-Save-the-project-from-print-layout.png)
+![Figure 76. Save the project from print layout view](../fig/Figure76-Save-the-project-from-print-view.png)
 
 Save the project from print layout view
 {: .text-center}
@@ -117,7 +117,7 @@ Save the project from print layout view
 Save the project from main menu
 {: .text-center}
  
-![Figure 78. Save the project as HouseHuntingPlan](../fig/Figure78-Save-the-project-as-HouseHuntPlan.png)
+![Figure 78. Save the project as HouseHuntingPlan](../fig/Figure78-Save-the-project-as-HouseHuntingPlan.png)
 
 Save the project as HouseHuntingPlan
 {: .text-center}
