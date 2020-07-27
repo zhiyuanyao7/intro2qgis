@@ -17,6 +17,7 @@ keypoints:
 - "A variety of basemap can be added to QGIS through adding an XYZ Tile layer."
 source:Rmd
 ---
+
 # Familiarize yourself with QGIs
 
 **1.** The main area of QGIS is called the canvas. There are also panels and toolbars, a status bar and menu panels. 
