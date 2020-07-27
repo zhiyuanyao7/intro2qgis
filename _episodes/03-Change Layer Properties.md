@@ -28,37 +28,37 @@ Open Properties window (a)
 
 2. Select Single Symbol. Click Marker and select effect drop shadow. 
  
-![Figure 54. Change symbol (a)](../fig/)
+![Figure 54. Change symbol (a)](../fig/Figure54-Change-symbol-a.png)
 
 3. Select the second Simpler maker and remove it. 
  
-1[Figure 55. Delete the Single Marker](../fig/)
+1[Figure 55. Delete the Single Marker](../fig/Figure5-Delete-the-Single-Marker.png)
 
 4. Switch to Apartment_NotSelected layer and open Properties. 
  
-![Figure 56. Open Properties window (b)](../fig/)
+![Figure 56. Open Properties window (b)](../fig/Figure56-Open-Properties-window-b.png)
 
 5. Also select Single symbol. Choose diamond green. 
  
-![Figure 57. Change symbol (b)](../fig/)
+![Figure 57. Change symbol (b)](../fig/Figure57-Change-symbol-b.png)
 
 6. Select the Simple Marker. Go to Fill color and check Transparent Fill.
  
-![Figure 58. Change the Single Marker (a)](../fig/)
+![Figure 58. Change the Single Marker (a)](../fig/Figure58-Change-the-Single-Marker-a.png)
 
 7. Change the symbol of GroceryStore_sp. Go to the Properties. 
  
-![Figure 59. Open Properties window (c)](../fig/)
+![Figure 59. Open Properties window (c)](../fig/Figure59-Open-Properties-window-c.png)
 
 8. Follow the similar procedures of changing the symbol for Aparment_Selected to change the Marker for GroceryStore_sp. Choose dot orange and make the marker transparent. 
  
-![Figure 60. Change symbol (c)](../fig/)
+![Figure 60. Change symbol (c)](../fig/Figure60-Change-symbol-c.png)
 
-![Figure 61. Change the Single Marker (b)](../fig/)
+![Figure 61. Change the Single Marker (b)](../fig/Figure61-Change-the-Single-Marker-b.png)
 
 9. Change the symbol for Neighborhood_sp layer. Open properties. Choose Single symbol and click Simple fill. In Fill color, check Transparent Fill. 
  
-![Figure 62. Change the Simple Fill](../fig/)
+![Figure 62. Change the Simple Fill](../fig/Figure62-Change-the-Single-Fill.png)
 
 # Add labels
 
@@ -66,7 +66,7 @@ We want to label the selected apartments with the prices.
 
 1. Open Properties of Apartment_Selected layer. 
  
-![Figure 63. Open Properties window (e)](../fig/)
+![Figure 63. Open Properties window (e)](../fig/Figure63-Open-Properties-window-e.png)
 
 2. On the left panel, select Labels. On the right panel, from the top select Single Label. Select Price for Value. 
 
