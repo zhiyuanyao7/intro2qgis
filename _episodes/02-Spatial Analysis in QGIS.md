@@ -16,6 +16,7 @@ keypoints:
 - "Projection is the way to convert locations in a global onto to a flat plane."
 - "Choosing a right projection for a study area is crucial before any spatial analysis."
 - "The radius of created buffers is measured by Eucilidean distance."
+source:Rmd
 ---
 
 # Projection 
