@@ -58,7 +58,7 @@ Open Properties window (a)
 
 9. Change the symbol for Neighborhood_sp layer. Open properties. Choose Single symbol and click Simple fill. In Fill color, check Transparent Fill. 
  
-![Figure 62. Change the Simple Fill](../fig/Figure62-Change-the-Single-Fill.png)
+![Figure 62. Change the Simple Fill](../fig/Figure62-Change-the-Simple-Fill.png)
 
 # Add labels
 
