@@ -1,10 +1,7 @@
 ---
 layout: lesson
-root: .  # Is the only page that doesn't follow the pattern /:path/index.html
-permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+root: . 
 ---
-{% include gh_variables.html %}
-
 ## Welcome to the QGIS workshop
 QGIS Quantum Geographic Information Systems (QGIS) is a user-friendly open source Geographic Information System (GIS) licensed under the GNU General Public License. This workshop exhibits a small portion of the many spatial analysis techniques QGIS offers to familiarize you with some of the basics, and to illustrate the fundamentals of GIS. In this workshop for beginners, we will locate apartments that are within 20 min distance by public transit, analyze the price of the apartments and count nearby grocery within a fixed buffer distance.
 
@@ -19,7 +16,6 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > their own computers to ensure the proper setup of tools for an efficient 
 > workflow. To most effectively use these materials, please make sure to download 
 > the data and install everything before working through this lesson.This workshop assumes no prior experience with the tools covered in the workshop. 
-
 > To get started, please download and install [QGIS Version 3.14](https://qgis.org/en/site/). 
 {: .prereq}
 
@@ -56,7 +52,5 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > | Grocery store [Download](/data/GeroceryStore_sp.zip) | Shapefile | 2020-05 | [Los Angeles Open Data](https://data.lacity.org/A-Prosperous-City/Grocery-Stores/g986-7yf9) | The locations of grocery stores in Los Angeles County.|
 > | Neighborhood boundaries [Download](/data/Neighborhood_sp.zip) |  Shapefile | 2020-06 | [Los Angeles Open Data Geohub](http://geohub.lacity.org/datasets/la-times-neighborhood-boundaries?geometry=-118.621%2C34.033%2C-118.294%2C34.083) |The administrative boundaries of neighiborhood in Los Angeles County.|
 > | Apartment locations [Download](/data/Aparment.csv) | csv | 2020-06 |[Apartments.com](Apartments.com)| The apartments are within 20 mins distance from UCLA by public transit, and the rents are less than $1700/month.The data were webscrapped from [Apartments](Apartments.com) on Jun. 15th, 2020 | 
-
 {: .callout} 
 
-{% include links.md %}
