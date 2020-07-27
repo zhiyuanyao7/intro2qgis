@@ -18,12 +18,16 @@ keypoints:
 ---
 # Familiarize yourself with QGIs
 
-**1.** The main area of QGIS is called the canvas. There are also panels and toolbars, a status bar and menu panels.   
+**1.** The main area of QGIS is called the canvas. There are also panels and toolbars, a status bar and menu panels. 
+
 **2.** Panels and toolbars may be moved around and docked at different locations (left-click and
 hold to initiate this flexibility).  If you drop a panel on top of another, they will be nested into tabs. Panels you do not used can be removed. Toolbars can be moved around in much the same way, but you cannot nest toolbars into tabs. By right-clicking in the toolbar area, you may get a list of available panels and toolbars you can turn them on and off as you like.
+
 **3.** Through the menu, you can access almost everything in QGIS; some functions have buttons, 
 and keyboard shortcuts as well.
+
 **4.** The status bar shows relevant information about the current tool or aspects of the map canvas, like coordinates and scale.
+
 **5.** Toolbox is where you can search for all the tools provided in QGIS. If you can see the toolbox as the figure shows, you can open it in the menu (Processing->Toolbox).
 
 ![QGIS Layout](../fig/Figure7-QGIS-layout.png)
