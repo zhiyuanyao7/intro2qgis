@@ -23,8 +23,6 @@ source: Rmd
 
 Before we do the spatial analysis to find the suitable apartments, we need to **project** the ***Aparments*** layer. The Apartment layer is converted from a csv and the locations are derived from X and Y coordinates. X and Y coordinates are longtitudes and latitudes which represent locations on a global. We need to project the locations onto a "a flat piece of paper" before we do the analysis.
 
-### Extent
-
 Projecting a map into different projections means drawing the earth surface onto a “a flat piece of paper”. There are a variety of methods to “draw”, among which there are three major methods: planar (left), conic (middle), and cylindrical (right) projections. 
 
 ![Different Projections](../fig/Figure 18. Different Projections.png)
@@ -71,8 +69,6 @@ Rename the layer
 
 # Save the reprojected layer
 
-### Extent
-
 1. Looking at the renamed layer: Apartments_sp, you can find there is a button (looks like a caterpillar). This button indicates the layer is a temporal layer and is not saved. To save this layer, click the “caterpillar” button, a Save Scratch Layer window pops up. 
 
 ![Save the scratch layer (a)](../fig/Figure23-Save-the-scratch-layer-a.png)
@@ -94,8 +90,6 @@ Save the scratch layer (b)
 Save the scratch layer (c)
 {: .text-center}
 
-
-
 To find out which places are suitable for the student, we set two criteria:
 
 1. there are at least 2 grocery stores within 400 meters of the buffer centered at the Apartments.
@@ -111,8 +105,6 @@ To meet the criteria, we need to
 
 
 # Create walking distance buffers
-
-### Extent
 
 1. Go to Menu bar and find MMQGIS (the plugin installed). Click Create Buffers.
 
@@ -144,8 +136,6 @@ BUffer the layer panel
 
 # Count points within buffers
 
-### Extent
-
 1.In the Menu bar, find Vector. Go to Analysis tool and Click Count Points in Polygon. 
 
 ![Count points in polygon (a)](../fig/Figure33-Count-points-in-polygon-a.png)
@@ -168,8 +158,6 @@ Save the GroceryCount layer
 {: .text-center}
 
 # Join attribute layer
-
-### Extent
 
 We counted the number of grocery stories with each buffer, and the information is stored in GroceryCount Layer. Let’s check the attribute table, find the information (NUMPOINTS) and join the attribute table to Apartments_sp. 
 
@@ -234,8 +222,6 @@ Save Apartments_GroceryCount
 
 # Select feature class by attributes
 
-### Extent
-
 To select by attributes, we need to open attribute table and look at how many attributes the table has and which attribute we will analyze.
 
 1. Right click Apartments_GroceryCount and Open Attribute Table. 
@@ -265,8 +251,6 @@ Select by expression (b)
 
 # Export teh selected feature class
 
-### Extent
-
 1. Right click the Apartments_GroceryCount. Choose Export and click Save Selected Features As.
 
 ![Figure 47.Save selected feature (a)](../fig/Figure47-Save-selected-features-a.png)
@@ -279,8 +263,6 @@ Save selected features (b)
 {: .text-center}
 
 # Invert Selection
-
-### Extent
 
 Saving the selected apartments, we Invert selections and export the apartments that are not selected. We need the unselected apartments for mapping later. 
 
@@ -304,8 +286,6 @@ Save selected features (d)
 {: .text-center}
 
 # Deselect the selected feature class
-
-### Extent
 
 After exporting Apartment_Selected and Apartment_NotSelected, go to the Tool bar in QGIS and Click Delected Features from the Current Active Layer. This will deselect the selected features in Apartement_GroceryCount layer. 
 
