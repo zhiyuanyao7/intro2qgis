@@ -25,30 +25,31 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 
 > ## QGIS project: Housing hunting plan
 >
-> In this project, you will help a student to find a suitable apartment according to several criteria.
+> In this project, you will help a student find a suitable apartment according to several criteria.
 
-> |  | Description |
+> | Content | Description |
 > | ---- | ------|
 > | **Research question** |Where should one student live when he/she wants to find a place where is close to grocery store, the price is lower than $1300/month and within 20 min distance of public transit?|
 > |**Study area** | Los Angeles County|
 > | **Introduction & Objectives** |This workshop applies some basic spatial analysis tools to find out the suitable apartments for students. The objectives of the workshops are being familiar with QGIS layout, being able to use basic spatial analysis tools (e.g. buffer), changing layersâ€™ properties, and making maps.| 
 > |**Methodology**|* Import csv file with X and Y Coordinates as a layer 
-*	Add vector layers
-* Project the layer into a proper projection
-* Create buffers
-* Join attribute tables
-* Changes layers properties
-* Create a print layout and make maps|
+> *	Add vector layers
+> * Project the layer into a proper projection
+> * Create buffers
+> * Join attribute tables
+> * Changes layers properties
+> * Create a print layout and make maps|
 > |**Expected results**|Maps are saved for revew. For this: 
-* Learn to save map projects, and create, export, and save map print layouts.
-* Add item contents (i.e. maps, text box, legend, north arrow, and scale bars) to compose a print layout, and modify item properties. |
+> * Learn to save map projects, and create, export, and save map print layouts.
+> * Add item contents (i.e. maps, text box, legend, north arrow, and scale bars) to compose a print layout, and modify item properties. |
 > |**Analysis & Discussion**|To find the suitable apartment for the students, we need to consider other factors, such as having a car or not, the definition of grocery stores, the network distance instead of Euclidean distance when creating buffers.|
 > |**Conclusion**|Thank you for attending the workshop. After reviewing the map, where do you think the best place for a student and why?|
-{: .callout} 
+{: .checklist} 
 
 > ## Data
 >
 > The data used for the workshop are neighborhood boundaries for Los Angeles county, Grocery stores in Los Angeles County, and apartments locations within 20 min distance by public transit and price is less than $1700/month. 
+{: .callout}
 
 > | Dataset | Format | Date | Resource | Description |
 > | ---- | ------| ---- |  ---- |
