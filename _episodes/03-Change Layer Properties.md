@@ -20,8 +20,6 @@ Next, we will change the layer properties:
 
 # Symbology
 
-### Extent
-
 1. Right click Apartment_Selected and choose Properties. 
  
 ![Figure 53. Open Properties window (a)](../fig/Figure53-Open-Properties-window-a.png)
@@ -64,8 +62,6 @@ Open Properties window (a)
 
 # Add labels
 
-### Extent
-
 We want to label the selected apartments with the prices.
 
 1. Open Properties of Apartment_Selected layer. 
@@ -73,8 +69,6 @@ We want to label the selected apartments with the prices.
 ![Figure 63. Open Properties window (e)](../fig/)
 
 2. On the left panel, select Labels. On the right panel, from the top select Single Label. Select Price for Value. 
-
-
 
 {% include links.md %}
 
