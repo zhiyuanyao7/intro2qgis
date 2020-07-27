@@ -2,6 +2,8 @@
 layout: lesson
 root: . 
 ---
+{% include gh_variables.html %}
+
 ## Welcome to the QGIS workshop
 QGIS Quantum Geographic Information Systems (QGIS) is a user-friendly open source Geographic Information System (GIS) licensed under the GNU General Public License. This workshop exhibits a small portion of the many spatial analysis techniques QGIS offers to familiarize you with some of the basics, and to illustrate the fundamentals of GIS. In this workshop for beginners, we will locate apartments that are within 20 min distance by public transit, analyze the price of the apartments and count nearby grocery within a fixed buffer distance.
 
@@ -54,3 +56,4 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > | Apartment locations [Download](/data/Aparment.csv) | csv | 2020-06 |[Apartments.com](Apartments.com)| The apartments are within 20 mins distance from UCLA by public transit, and the rents are less than $1700/month.The data were webscrapped from [Apartments](Apartments.com) on Jun. 15th, 2020 | 
 {: .callout} 
 
+{% include links.rmd %}
