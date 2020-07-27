@@ -22,10 +22,10 @@ and keyboard shortcuts as well.
 4.The status bar shows relevant information about the current tool or aspects of the map canvas, like coordinates and scale.
 5.Toolbox is where you can search for all the tools provided in QGIS. If you can see the toolbox as the figure shows, you can open it in the menu (Processing->Toolbox).
 
-![QGIS Layout](../fig/Figure 7. QGIS layout.png)
+![QGIS Layout](../fig/Figure7-QGIS-layout.png)
 
 6.Use the map navigation toolbar to help navigate your map in the canvas. Here you can find tools to pan and zoom the map, zoom to selected features, and view the complete extent of the map or selected layer. You can also jump to a previous extent with dedicated buttons.  
-![QGIS Toolbar](../fig/Figure 8. QGIS tool bar.png)
+![QGIS Toolbar](../fig/Figure8-QGIS-tool-bar.png)
 
 # Add data to QGIS
 
@@ -35,15 +35,15 @@ To start, we need to download the data first. There are two shapefiles: Grocery 
 
 1. a.	Left-click the “Layer” menu option, hover over “Add Layer,” and left-click the “Add Vector Layer” option. 
 
-![Add a vector layer](../fig/Figure 9. Add a vector layer.png)
+![Add a vector layer](../fig/Figure9-Add-a-vector-layer.png)
 
 2.In Data Source Manager|Vector window, click the button and navigate to the folder where the data is. Once select GroceryStores_sp.shp, click Add. 
 
-![Add Grocery store layer](../fig/Figure 10. add GEoceryStores_sp layer.png)
+![Add Grocery store layer](../fig/Figure10-add-GEoceryStores_sp-layer.png)
 
 3.Follow the same procedure and Add Neighborhood_sp.shp.
 
-![Add Neighborhood layer](../fig/Figure 11. Add Neighiborhood_sp layer.png)
+![Add Neighborhood layer](../fig/Figure11-Add-Neighiborhood_sp-layer.png)
 
 4. After adding GroceryStores_sp.shp and Neighborhood_sp.shp, close the Data Source Manager|Vector window.
 
@@ -57,12 +57,12 @@ QGIS can convert X Y Coordinates into locations on a map. Open Apartments.csv an
 
 2. b.	In the Data Source Manager|Vector window, 1) navigate to the Data folder and 2) choose Apartment.csv. 3) Make sure Geometry CRS is EPSG: 4326 – WGS84. 4) Click Add. Close the Data Source Manager|Vector window. Apartments should show in the Canvas. 
 
-![Add Apartments layer](../fig/Figure 13. Add Apartments layer.png)
+![Add Apartments layer](../fig/Figure13-Add-Apartments-layer.png)
 
 
 3.The Canvas looks like the following. There are two points layers (Apartments, and GroceryStore_sp), and one polygon layer (Neighborhood_sp).
 
-![Layout after adding layers](../fig/Figure 14. Layout after adding layers.png)
+![Layout after adding layers](../fig/Figure14-Layout-after-adding-layers.png)
 
 
 # Add a basemap
@@ -71,15 +71,15 @@ QGIS provides access to a variety of online base maps. You can add these base ma
 
 1. Find XYZ Tiles in Brower. Right click XYZ Tiles. 
 
-![Add a new connection of XYZ Tile](../fig/Figure 15. Add a new connection for XYZ Tile.png)
+![Add a new connection of XYZ Tile](../fig/Figure15-Add-a-new-connection-for-XYZ-Tile.png)
 
 2. In the XYZ Connection window, name the new XYZ Tile as Google Road/Streets, and copy  https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z} into URL. Click OK. 
 
-![Add Google Streets as the basemap](../fig/Figure 16. Add Google Streets as the basemap.png)
+![Add Google Streets as the basemap](../fig/Figure16-Add-Google-Streets-as-the-basemap.png)
 
 3. Drag Google Road into the Canvas and move Google Road layer to the bottom in Layers Panel. 
 
-![Drag Google Streets to the Canvas](../fig/Figure 17. Drag Google Streets to the Canvas.png)
+![Drag Google Streets to the Canvas](../fig/Figure17-Drag-Google-Streets-to-the-Canvas.png)
 
 
 # Add a plugin 
@@ -88,18 +88,18 @@ As an open source software, QGIS have an active community constantly contributin
 
 1. To add a plugin, go to Menu, and click Plugins. Then click Manage and Install Plugins.
 
-![Manage and install plugins](../fig/Figure 26. Manage and install plugins.png)
+![Manage and install plugins](../fig/Figure26-Manage-and-install-plugins.png)
 
 2. In the Plugins window, search for **MMQGIS**. Click the mmqgis and then Install Plugin. 
-![MMQGIS plugin](../fig/Figure 27. MMQGIS plugin.png)
+![MMQGIS plugin](../fig/Figure27-MMQGIS-plugin.png)
 
 3. After installation, check the box in front of **mmqgis**. 
 
-![Check mmqgis plugin](../fig/Figure 28. Check mmqgis plugin.png)
+![Check mmqgis plugin](../fig/Figure28-Check-mmqgis-plugin.png)
 
 4. With successful installation, you should see the MMQGIS in the Menu bar. 
 
-![Open MMQGIS in the Menu bar](../fig/Figure 29. Open MMQGIS in the Menu bar.png)
+![Open MMQGIS in the Menu bar](../fig/Figure29-Open-MMQGIS-in-the-Menu-bar.png)
 
 {% include links.md %}
 
