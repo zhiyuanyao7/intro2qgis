@@ -55,4 +55,4 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > | Apartment locations [Download](/data/Aparment.csv) | csv | 2020-06 |[Apartments.com](Apartments.com)| The apartments are within 20 mins distance from UCLA by public transit, and the rents are less than $1700/month.The data were webscrapped from [Apartments](Apartments.com) on Jun. 15th, 2020 | 
 {: .callout} 
 
-{% include links.rmd %}
+{% include links.md %}
