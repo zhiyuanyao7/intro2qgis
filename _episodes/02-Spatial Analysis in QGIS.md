@@ -25,7 +25,7 @@ Before we do the spatial analysis to find the suitable apartments, we need to **
 
 Projecting a map into different projections means drawing the earth surface onto a “a flat piece of paper”. There are a variety of methods to “draw”, among which there are three major methods: planar (left), conic (middle), and cylindrical (right) projections. 
 
-![Different Projections](../fig/Figure18-Different-Projections.png)
+![Different Projections](../fig/Figure18-Different-projections.png)
 
 Different Projections [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgistbok.ucgis.org%2Fbok-topics%2Fmap-projections&psig=AOvVaw2Cyb9hT3V7QTPVg7j3ttVL&ust=1593707844112000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOials--rOoCFQAAAAAdAAAAABAW)
 {: .text-center}
@@ -208,7 +208,7 @@ Join tables by field value
 
 7. A Joined Layer shows up in the Layer Panel. Right-Click it and rename the layer as Apartment_GroceryCount. 
 
-![Figure 42. Rename Joined layer](../fig/Figure42-Rename-Joined-Layer.png)
+![Figure 42. Rename Joined layer](../fig/Figure42-Raname-Joined-Layer.png)
 
 Rename Joined Layer
 {: .text-center}
