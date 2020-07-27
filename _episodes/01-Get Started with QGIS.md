@@ -35,6 +35,7 @@ and keyboard shortcuts as well.
 ![QGIS Layout](../fig/Figure7-QGIS-layout.png)
 
 **6.** Use the map navigation toolbar to help navigate your map in the canvas. Here you can find tools to pan and zoom the map, zoom to selected features, and view the complete extent of the map or selected layer. You can also jump to a previous extent with dedicated buttons.  
+
 ![QGIS Toolbar](../fig/Figure8-QGIS-tool-bar.png)
 
 # Add data to QGIS
