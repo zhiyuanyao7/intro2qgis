@@ -41,7 +41,6 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > ## Data
 >
 > The data used for the workshop are neighborhood boundaries for Los Angeles county, Grocery stores in Los Angeles County, and apartments locations within 20 min distance by public transit and price is less than $1700/month. 
-{: .callout}
 
 > | Dataset | Format | Date | Resource | Description |
 > | ---- | ------| ---- |  ---- |
