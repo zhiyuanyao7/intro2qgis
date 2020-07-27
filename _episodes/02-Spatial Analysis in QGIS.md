@@ -25,7 +25,7 @@ Before we do the spatial analysis to find the suitable apartments, we need to **
 
 Projecting a map into different projections means drawing the earth surface onto a “a flat piece of paper”. There are a variety of methods to “draw”, among which there are three major methods: planar (left), conic (middle), and cylindrical (right) projections. 
 
-![Different Projections](../fig/Figure 18. Different Projections.png)
+![Different Projections](../fig/Figure18-Different-Projections.png)
 
 Different Projections [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgistbok.ucgis.org%2Fbok-topics%2Fmap-projections&psig=AOvVaw2Cyb9hT3V7QTPVg7j3ttVL&ust=1593707844112000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOials--rOoCFQAAAAAdAAAAABAW)
 {: .text-center}
@@ -35,7 +35,7 @@ The Apartments layer we mapped into QGIS canvas are locations represented by X a
 1. Go to Processing Toolbox and search for projection. If the Processing Toolbox does not show on the right panel of QGIS layout. Go to the Menu, Processing, and Click Toolbox. 
 2. Select Reproject Layer. 
 
-![Reproject lyaer](../fig/Figure 19. Reproject layer.png)
+![Reproject lyaer](../fig/Figure19-Reproject-layer.png)
 
 Reproject layer 
 {: .text-center}
@@ -78,7 +78,7 @@ Save the scratch layer (a)
 
 2. Name the file as Apartments_sp and save it in your working folder. Click OK. 
 
-![Save the scrath the layer (b)](../fig/Figure24-Save-the-scratch-layer-b.png)
+![Save the scrath the layer (b)](../fig/Figure24-Save -the-scratch-layer-b.png)
 
 Save the scratch layer (b)
 {: .text-center}
@@ -108,7 +108,7 @@ To meet the criteria, we need to
 
 1. Go to Menu bar and find MMQGIS (the plugin installed). Click Create Buffers.
 
-![Create buffers](../fig/Figure30-Create-buffers.png)
+![Create buffers](../fig/Figure30-Create buffers.png)
 
 Create buffers 
 {: .text-center}
@@ -128,7 +128,7 @@ Create buffers around Apartments layer
 
 3. The buffer layer should show up in the Layer panel. 
 
-![Buffer in the layer pannel](../fig/Figure32-BUffer-in-the-layer-panel.png)
+![Buffer in the layer pannel](../fig/Figure32-Buffer-in-the-layer-panel.png)
 
 
 BUffer the layer panel
@@ -152,7 +152,7 @@ Count points in polygon (b)
 
 3. Navigate to the Save the output as GroceryCount.shp. The saved file should show up in the Layer Panel.
 
-![Save the GroceryCount layer](../fig/Figure34-Save-GroceryCount-layer.png)
+![Save the GroceryCount layer](../fig/Figure35-Save-GroceryCount-layer.png)
 
 Save the GroceryCount layer
 {: .text-center}
@@ -187,7 +187,7 @@ Open attribute table
 
 4. Comparing the two attributes tables, both GroceryCount and Apartments_sp have Address column. We will use Address as the shared column to join these two tables.  
 
-![Attribute table of Apartments_sp layer](../fig/Figure39-Attribute-table-of-Apartments_sp-layr.png)
+![Attribute table of Apartments_sp layer](../fig/Figure39-Attribute-table-of-Apartments_sp-layer.png)
 
 Attribute tbale of Apartments_sp layer
 {: .text-center}
@@ -201,7 +201,7 @@ Join in processing Toolbox
 
 6. In the Join Attributes by Field Value window, choose Apartments_sp as the Input Layer and Address as Table field. Choose GroceryCount as Input Layer 2 and Address as Table field 2. Click Run. 
 
-![Join table by field value](../fig/Figure41-Join-tables-byy-field-value.png)
+![Join table by field value](../fig/Figure41-Join-tables-by-field-value.png)
 
 Join tables by field value
 {: .text-center}
@@ -215,7 +215,7 @@ Rename Joined Layer
 
 8. here is a “caterpillar” button, indicating this is a scratch layer that is not saved on local drive. To save it, click the “caterpillar” button and save it as Apartment_GroceryCount.shp. 
 
-![Figure 43. Save Apartements_GroceryCount](./fig/Figure43-Save-Apartments_GroceryCount.png)
+![Figure 43. Save Apartements_GroceryCount](../fig/Figure43-Save-Apartments_GroceryCount.png)
 
 Save Apartments_GroceryCount
 {: .text-center}
@@ -233,7 +233,7 @@ Open attribute table of Apartments_GroceryCount
 
 2. There are total 443 records with 11 columns (attributes). Click the Select feature using an expression. 
 
-![Figure 45. Select by expression (a)](../fig/Figure54-Select-by-expression-a.png)
+![Figure 45. Select by expression (a)](../fig/Figure45-Select-by-expression-a.png)
 
 Select by expression (a)
 {: .text-center}
@@ -289,7 +289,7 @@ Save selected features (d)
 
 After exporting Apartment_Selected and Apartment_NotSelected, go to the Tool bar in QGIS and Click Delected Features from the Current Active Layer. This will deselect the selected features in Apartement_GroceryCount layer. 
 
-![Figure 52.Deselect features from the current active layers](../fig/Figure52-Deselect-features-from-the-current-active-layer.png)
+![Figure 52.Deselect features from the current active layers](../fig/Figure52-Deselect-features-from-the-current-active-layers.png)
 
 Deselect features from the current active layers
 {: .text-center}
