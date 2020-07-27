@@ -33,9 +33,10 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > | **Research question** |Where should one student live when he/she wants to find a place where is close to grocery store, the price is lower than $1300/month and within 20 min distance of public transit?|
 > |**Study area** | Los Angeles County|
 > | **Introduction & Objectives** | This workshop applies some basic spatial analysis tools to find out the suitable apartments for students. The objectives of the workshops are being familiar with QGIS layout, being able to use basic spatial analysis tools (e.g. buffer), changing layersâ€™ properties, and making maps.| 
-> |**Methodology**|* Import csv file with X and Y Coordinates as a layer|
-> |               |* Add vector layers</li><li>Project the layer into a proper projection|
-> |               |* Create buffers</li><li>Join attribute tables|
+> |**Methodology**|- Import csv file with X and Y Coordinates as a layer
+- Add vector layers
+- Project the layer into a proper projection
+- Create buffers</li><li>Join attribute tables|
 > |               |* Changes layers properties|
 > |               |* Create a print layout and make maps|
 > |**Expected results**| Maps are saved for revew. For this:<ul><li>Learn to save map projects, and create, export, and save map print layouts.</li><li> Add item contents (i.e. maps, text box, legend, north arrow, and scale bars) to compose a print layout, and modify item properties.</li><ul>|
