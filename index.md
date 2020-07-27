@@ -26,7 +26,7 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > ## QGIS project: Housing hunting plan
 >
 > In this project, you will help a student find a suitable apartment according to several criteria.
-
+>
 > | Content | Description |
 > | ---- | ------|
 > | **Research question** |Where should one student live when he/she wants to find a place where is close to grocery store, the price is lower than $1300/month and within 20 min distance of public transit?|
@@ -41,7 +41,7 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > ## Data
 >
 > The data used for the workshop are neighborhood boundaries for Los Angeles county, Grocery stores in Los Angeles County, and apartments locations within 20 min distance by public transit and price is less than $1700/month. 
-
+>
 > | Dataset | Format | Date | Resource | Description |
 > | ---- | ------| ---- |  ---- |
 > | Grocery store [Download](../data/GroceryStore_sp.zip) | Shapefile | 2020-05 | [Los Angeles Open Data](https://data.lacity.org/A-Prosperous-City/Grocery-Stores/g986-7yf9) | The locations of grocery stores in Los Angeles County.|
