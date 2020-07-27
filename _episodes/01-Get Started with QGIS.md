@@ -14,8 +14,6 @@ keypoints:
 ---
 # Familiarize yourself with QGIs
 
-### Extent
-
 1.The main area of QGIS is called the canvas. There are also panels and toolbars, a status bar and menu panels.   
 2.Panels and toolbars may be moved around and docked at different locations (left-click and
 hold to initiate this flexibility).  If you drop a panel on top of another, they will be nested into tabs. Panels you do not used can be removed. Toolbars can be moved around in much the same way, but you cannot nest toolbars into tabs. By right-clicking in the toolbar area, you may get a list of available panels and toolbars you can turn them on and off as you like.
@@ -30,8 +28,6 @@ and keyboard shortcuts as well.
 ![QGIS Toolbar](../fig/Figure 8. QGIS tool bar.png)
 
 # Add data to QGIS
-
-### Extent 
 
 To start, we need to download the data first. There are two shapefiles: Grocery stores [Download](../data/GroceryStores_sp.zip), and Neighborhood boundary [Download](../data/Neighborhood_sp.zip), and a csv file: Apartments [Download](../data/Apartments.csv).
 
@@ -71,8 +67,6 @@ QGIS can convert X Y Coordinates into locations on a map. Open Apartments.csv an
 
 # Add a basemap
 
-### Extent
-
 QGIS provides access to a variety of online base maps. You can add these base maps by building [XYZ Tiles connections](https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/). Here we add Google Road/Streets as the base map for the project. 
 
 1. Find XYZ Tiles in Brower. Right click XYZ Tiles. 
@@ -89,8 +83,6 @@ QGIS provides access to a variety of online base maps. You can add these base ma
 
 
 # Add a plugin 
-
-### Extent
 
 As an open source software, QGIS have an active community constantly contributing to a variety of tools by developing QGIS plugins. We will use a MMQGIS plugin in this project. 
 
