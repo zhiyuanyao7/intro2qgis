@@ -53,14 +53,14 @@ Reproject layer
 Find NAD83(2011)/California zone 5 projection
 {: .text-center}
 
-4. Once the projection is done, you can find there is a new layer named Reprojected showing up in the Layer panel. 
+**4.**  Once the projection is done, you can find there is a new layer named Reprojected showing up in the Layer panel. 
 
 ![Rename the reprojected layer](../fig/Figure21-Rename-the-reprojected-layer.png)
 
 Rename teh reprojected layer
 {: .text-center}
 
-5. Rename the Reprojected layer as Apartment_sp. Sp means State Plane, which is the projection system specifically for United States. NAD83(2011)/California zone 5 is a part of State Plane Projection. 
+**5.**  Rename the Reprojected layer as Apartment_sp. Sp means State Plane, which is the projection system specifically for United States. NAD83(2011)/California zone 5 is a part of State Plane Projection. 
 
 ![Rename the layer](../fig/Figure22-Rename-the-layer.png)
 
@@ -107,14 +107,14 @@ d. select the targeted apartments`
 
 # Create walking distance buffers
 
-1. Go to Menu bar and find MMQGIS (the plugin installed). Click Create Buffers.
+**1.**  Go to Menu bar and find MMQGIS (the plugin installed). Click Create Buffers.
 
 ![Create buffers](../fig/Figure30-Create buffers.png)
 
 Create buffers 
 {: .text-center}
 
-2. In the Create Buffers window 
+**2.**  In the Create Buffers window 
 * (1) select Apartments_sp. This is the layer that we will center to create buffers.
 * (2) Set the radius as 400
 * (3) Unit is meters
@@ -127,7 +127,7 @@ Create buffers
 Create buffers around Apartments layer 
 {: .text-center}
 
-3. The buffer layer should show up in the Layer panel. 
+**3.**  The buffer layer should show up in the Layer panel. 
 
 ![Buffer in the layer pannel](../fig/Figure32-Buffer-in-the-layer-pannel.png)
 
@@ -225,38 +225,38 @@ Save Apartments_GroceryCount
 
 To select by attributes, we need to open attribute table and look at how many attributes the table has and which attribute we will analyze.
 
-1. Right click Apartments_GroceryCount and Open Attribute Table. 
+**1.**  Right click Apartments_GroceryCount and Open Attribute Table. 
 
 ![Figure 44. Open attribute table of Apartments_GroceryCount](../fig/Figure44-Open-attribute-table-of-Apartments_GroceryCount.png)
 
 Open attribute table of Apartments_GroceryCount
 {: .text-center}
 
-2. There are total 443 records with 11 columns (attributes). Click the Select feature using an expression. 
+**2.**  There are total 443 records with 11 columns (attributes). Click the Select feature using an expression. 
 
 ![Figure 45. Select by expression (a)](../fig/Figure45-Select-by-expression-a.png)
 
 Select by expression (a)
 {: .text-center}
 
-3. Go to Expression tab.  There are three panels in the window, expression (left), a list of functions (middle), and explanation of functions (right). Choose functions from the middle panel. 
+**3.**  Go to Expression tab.  There are three panels in the window, expression (left), a list of functions (middle), and explanation of functions (right). Choose functions from the middle panel. 
 
-4. Click the functions from Fields and Values and Operates in the middle panel and make the expressions: “NUMPOINTS” >= AND “Price” <= 1300. Then click Selected Features. 
+**4.**  Click the functions from Fields and Values and Operates in the middle panel and make the expressions: “NUMPOINTS” >= AND “Price” <= 1300. Then click Selected Features. 
 
 ![Figure 46. Select by expression (b)](../fig/Figure46-Select-by-expression-b.png)
 
 Select by expression (b)
 {: .text-center}
 
-5. You can see the selected features are highlighted in the Canvas. There are 2 apartments selected.
+**5.**  You can see the selected features are highlighted in the Canvas. There are 2 apartments selected.
 
 # Export the selected feature class
 
-1. Right click the Apartments_GroceryCount. Choose Export and click Save Selected Features As.
+**1.**  Right click the Apartments_GroceryCount. Choose Export and click Save Selected Features As.
 
 ![Figure 47.Save selected feature (a)](../fig/Figure47-Save-selected-features-a.png)
 
-2. Save the selected features as Apartment_Selected.shp. Click OK.
+**2.**  Save the selected features as Apartment_Selected.shp. Click OK.
 
 ![Figure 48.Save selected features (b)](../fig/Figure48-Save-selected-features-b.png)
 
@@ -267,14 +267,14 @@ Save selected features (b)
 
 Saving the selected apartments, we Invert selections and export the apartments that are not selected. We need the unselected apartments for mapping later. 
 
-1. In the attribute table, click the Invert selection button. The selection changes into the rest of the unselected apartments. 
+**1.**  In the attribute table, click the Invert selection button. The selection changes into the rest of the unselected apartments. 
 
 ![Figure 49.Invert selection](../fig/Figure49-Invert-selection.png)
 
 Invert selection
 {: .text-center}
 
-2. Export the new selection as Apartment_NotSelected.shp. 
+**2.**  Export the new selection as Apartment_NotSelected.shp. 
 
 ![Figure 50.Save selected features (c)](../fig/Figure50-Save-selected-features-c.png)
  
