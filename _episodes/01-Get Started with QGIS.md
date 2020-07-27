@@ -15,6 +15,7 @@ keypoints:
 - "To map a delimited file, the file need to have geospatial information (e.g. X Y Coordinates)."
 - "X Y Coordinates are longtitude and latutide in degrees. WGS 84 is the most often used geodetic datum to represent coordinates"
 - "A variety of basemap can be added to QGIS through adding an XYZ Tile layer."
+source:Rmd
 ---
 # Familiarize yourself with QGIs
 
