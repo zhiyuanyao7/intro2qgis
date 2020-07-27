@@ -36,7 +36,7 @@ Change symbols (a)
 
 **3.**  Select the second Simpler maker and remove it. 
  
-1[Figure 55. Delete the Single Marker](../fig/Figure5-Delete-the-Single-Marker.png)
+![Figure 55. Delete the Single Marker](../fig/Figure55-Delete-the-Single-Marker.png)
 
 Delete the single marker
 {: .text-center}
