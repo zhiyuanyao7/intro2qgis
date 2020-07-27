@@ -1,6 +1,7 @@
 ---
 title: "Get started with QGIS"
 teaching: 20
+exercises: 0
 questions: 
 - "How do we add a vector data into QGIS?"
 - "How do we map X and Y Coordinate into QGIS?"
