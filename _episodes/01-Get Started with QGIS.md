@@ -1,6 +1,10 @@
 ---
 title: "Get started with QGIS"
 teaching: 20
+questions: 
+- "How do we add a vector data into QGIS?"
+- "How do we map X and Y Coordinate into QGIS?"
+- "How do we add a basemap and a plugin into QGIS?"
 objectives:
 - "Know how to add vector data into QGIS."
 - "Know how to add delimited file into QGIS and map them."
