@@ -21,7 +21,7 @@ Please consult the [Data Science Center](https://www.library.ucla.edu/location/d
 > the data and install everything before working through this lesson.This workshop assumes no prior experience with the tools covered in the workshop. 
 
 > To get started, please download and install [QGIS Version 3.14](https://qgis.org/en/site/). 
-{: .checklist}
+{: .prereq}
 
 
 > ## QGIS project: Housing hunting plan
