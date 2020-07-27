@@ -2,6 +2,7 @@
 layout: lesson
 root: . 
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+source:Rmd
 ---
 {% include gh_variables.html %}
 
