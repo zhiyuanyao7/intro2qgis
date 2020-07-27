@@ -1,7 +1,6 @@
 ---
 layout: lesson
 root: . 
-source:Rmd
 ---
 {% include gh_variables.html %}
 
